@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "MLG",
+    "name": "Lewdclysm",
+    "authors": [ "MutaMan" ],
+    "maintainers": [ "MLG" ],
+    "description": "For those looking for more lewdity in their cataclysm.",
+    "category": "content",
+    "dependencies": [ "dda" ]
+  }
+]

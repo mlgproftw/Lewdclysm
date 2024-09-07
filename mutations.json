@@ -1,0 +1,20 @@
+[
+  {
+    "type": "mutation",
+    "id": "PENIS",
+    "name": { "str": "Penis" },
+    "points": 0,
+    "description": "You have a penis.",
+    "starting_trait": true,
+	  "cancels": [ "VAGINA" ]
+  },
+  {
+    "type": "mutation",
+    "id": "VAGINA",
+    "name": { "str": "Vagina" },
+    "points": 0,
+    "description": "You have a vagina.",
+    "starting_trait": true,
+	  "cancels": [ "PENIS" ]
+  }
+]

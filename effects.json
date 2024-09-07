@@ -1,0 +1,42 @@
+[
+  {
+	"type": "effect_type",
+    "id": "recent_sex_activity",
+    "name": [ "Recent sex proposition" ],
+    "desc": [ "Temporary AI tag for if you've recently tried to make things sexual with an npc. This is a bug if you have it." ]
+  },
+  {
+	"type": "effect_type",
+    "id": "recent_romance_proposal",
+    "name": [ "Recent relationship proposition" ],
+    "desc": [ "Temporary AI tag for if you've recently tried to get into a relationship with an npc. This is a bug if you have it." ]
+  },
+  {
+	"type": "effect_type",
+    "id": "recent_romance_activity",
+    "name": [ "Recent romantic activity" ],
+    "desc": [ "Temporary AI tag for if you've recently engaged in a romantic activity with an npc. This is a bug if you have it." ]
+  },
+  {
+    "type": "effect_type",
+      "id": "arousal",
+      "max_intensity": 6,
+      "name": [ "Arousal" ],
+      "desc": [ "You are slightly aroused.", "You are aroused.", "You are very aroused." ],
+      "apply_message": "You feel aroused.",
+      "remove_message": "You no longer feel aroused.",
+      "int_decay_step": -1,
+      "int_decay_tick": 300,
+      "int_decay_remove": true,
+      "base_mods": {
+        "stim_amount": [1],
+        "heart_rate_amount": [5],
+        "hit_mod": [-1]
+      },
+      "scaling_mods": {
+        "stim_amount": [1],
+        "heart_rate_amount": [5],
+        "int_mod": [-0.5]
+      }
+    }
+]
